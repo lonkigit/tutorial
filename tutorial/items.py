@@ -14,3 +14,9 @@ class TutorialItem(scrapy.Item):
     title = scrapy.Field()
     rate = scrapy.Field()
     author = scrapy.Field()
+
+class NovelItem(scrapy.Item):
+    novel_name = scrapy.Field()
+    novel_author = scrapy.Field()
+    novel_title = scrapy.Field()
+    novel_content = scrapy.Field()
