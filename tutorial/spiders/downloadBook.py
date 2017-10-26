@@ -4,8 +4,8 @@ class QuotesSpider(scrapy.Spider):
     name = "xiaoshuo1"
 
     start_urls = [
-        # 'http://www.bxwx9.org/b/28/28958/5509231.html',
-        'http://www.bxwx9.org/b/28/28958/38243615.html'
+        'http://www.bxwx9.org/b/28/28958/5509231.html',
+        # 'http://www.bxwx9.org/b/28/28958/38243615.html'
     ]
 
 
